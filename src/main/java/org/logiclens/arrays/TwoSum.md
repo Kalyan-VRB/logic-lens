@@ -34,3 +34,14 @@ nums = [3,3], target = 6
 
 ### Follow-up
 Can you come up with an algorithm that is less than O(n²) time complexity?
+
+---
+
+## 🔗 Related Resources
+
+- [Solution Explanation](TwoSumSolution.md)
+- [Java Code](TwoSum.java)
+- [Test Cases](TwoSumTest.java)
+
+---
+

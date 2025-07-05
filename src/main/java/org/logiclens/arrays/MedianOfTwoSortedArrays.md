@@ -44,3 +44,12 @@ Merged array = [1,2,3,4] and the median is (2 + 3) / 2 = 2.5.
 - 0 <= n <= 1000
 - 1 <= m + n <= 2000
 - -10⁶ <= nums1[i], nums2[i] <= 10⁶
+
+---
+## 🔗 Related Resources
+
+- [Solution Explanation](MedianOfTwoSortedArraysSolution.md)
+- [Java Code](MedianOfTwoSortedArrays.java)
+- [Test Cases](TwoSumTest.java)
+
+---

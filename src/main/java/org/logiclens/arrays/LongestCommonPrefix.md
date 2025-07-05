@@ -44,3 +44,12 @@ There is no common prefix among the input strings.
 ## Objective
 
 Determine the longest string that is a prefix (beginning) of all strings in the array. If no such prefix exists, return an empty string.
+
+---
+## 🔗 Related Resources
+
+- [Solution Explanation](LongestCommonPrefixSolution.md)
+- [Java Code](LongestCommonPrefix.java)
+- [Test Cases](LongestCommonPrefixTest.java)
+
+---
