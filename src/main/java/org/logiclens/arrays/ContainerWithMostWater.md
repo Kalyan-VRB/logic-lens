@@ -27,6 +27,7 @@ Note: The container cannot be slanted; it must be formed by two vertical lines a
 `49`
 
 **Explanation:**  
+
 The vertical lines are represented by the array. Choosing the lines at index 1 (height = 8) and index 8 (height = 7),
 the container has width = 8 - 1 = 7 and height = min(8, 7) = 7. So, area = 7 * 7 = 49.
 ---
