@@ -30,8 +30,8 @@ def create_problem_files(problem_name):
 
     # Files to create with content
     files_to_create = {
-        java_file: f"// Java implementation for {file_prefix}\n\npublic class {file_prefix} {{\n\n}}",
-        test_file: f"// Test cases for {file_prefix}\n\npublic class {file_prefix}Test {{\n\n}}",
+        java_file: f"public class {file_prefix} {{\n\n}}",
+        test_file: f"public class {file_prefix}Test {{\n\n}}",
         solution_md: f"# {file_prefix} – Solution Explanation\n\n## Problem Summary\n\n...",
         problem_md: f"# {file_prefix}\n\n## Problem Statement\n\n...{related_resources}"
     }
