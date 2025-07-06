@@ -29,6 +29,7 @@ This project not only focuses on writing efficient code but also on understandin
 ---
 
 ## Directory Structure
+<pre>
 logiclens/
 ├── arrays/
 │   ├── ProblemName.java
@@ -36,10 +37,12 @@ logiclens/
 │   ├── ProblemName.md
 │   └── ProblemNameSolution.md
 ├── strings/
-│   └── …
+│   └── ...
 ├── graphs/
 ├── dp/
-└── …
+└── ...
+</pre>
+
 
 Each directory corresponds to a category of problems and contains:
 
