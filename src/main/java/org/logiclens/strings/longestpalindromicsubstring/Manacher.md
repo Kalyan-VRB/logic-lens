@@ -18,10 +18,10 @@ Manacher’s Algorithm efficiently finds the longest palindromic substring in li
 
 We convert the original string into a new string where each character is separated by `#`, and we add special characters `^` and `$` to avoid bounds checking.
 
-`Example:
-Original: "abba"
-Transformed: "^#a#b#b#a#$"
-Index: 0 1 2 3 4 5 6 7 8 9 10`
+Example:
+Original: `"abba"`
+Transformed: `"^#a#b#b#a#$"`
+Index: `0 1 2 3 4 5 6 7 8 9 10`
 
 
 This ensures all palindromes in the new string are of **odd length**, simplifying expansion logic.
@@ -42,15 +42,15 @@ We iterate from `i = 1` to `n - 2` (excluding sentinels), expanding palindromes 
 ### 3. Expansion Logic & Mirror Optimization
 
 For each position `i`, we check its **mirror index** with respect to the current `center`:
-mirror = 2 * center - i
+`mirror = 2 * center - i`
 
 If `i < right`, we initialize:
-p[i] = min(right - i, p[mirror])
+`p[i] = min(right - i, p[mirror])`
 
 Then, we expand around `i` as long as the characters match:
-while (t.charAt(i + 1 + p[i]) == t.charAt(i - 1 - p[i])) {
+`while (t.charAt(i + 1 + p[i]) == t.charAt(i - 1 - p[i])) {
 p[i]++;
-}
+}`
 
 If expansion goes beyond `right`, we update `center` and `right`.
 
@@ -59,10 +59,10 @@ If expansion goes beyond `right`, we update `center` and `right`.
 ### 4. Example Walkthrough – "abba"
 
 Transformed string:
-^ # a # b # b # a # $
+`^ # a # b # b # a # $`
 
 Index:
-0 1 2 3 4 5 6 7 8 9 10
+`0 1 2 3 4 5 6 7 8 9 10`
 
 At `i = 5` (centered on `#` between `b` and `b`), we expand outward:
 - `t[4] == t[6] → b == b`
@@ -73,7 +73,7 @@ At `i = 5` (centered on `#` between `b` and `b`), we expand outward:
 Expansion stops when `t[0] = ^` and `t[10] = $` don't match. So, the radius is `4`, centered at `i = 5`.
 
 To get the start index in the original string:
-start = (centerIndex - maxLen) / 2 = (5 - 4) / 2 = 0
+`start = (centerIndex - maxLen) / 2 = (5 - 4) / 2 = 0`
 
 Length = 4 → substring = `"abba"`
 
@@ -82,10 +82,10 @@ Length = 4 → substring = `"abba"`
 ### 5. Extract Result
 
 To find the starting index in the original string:
-start = (centerIndex - maxLen) / 2
+`start = (centerIndex - maxLen) / 2`
 
 Return:
-s.substring(start, start + maxLen)
+`s.substring(start, start + maxLen)`
 
 
 ---
