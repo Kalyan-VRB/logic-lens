@@ -18,10 +18,10 @@ Manacher’s Algorithm efficiently finds the longest palindromic substring in li
 
 We convert the original string into a new string where each character is separated by `#`, and we add special characters `^` and `$` to avoid bounds checking.
 
-Example:
+`Example:
 Original: "abba"
 Transformed: "^#a#b#b#a#$"
-Index: 0 1 2 3 4 5 6 7 8 9 10
+Index: 0 1 2 3 4 5 6 7 8 9 10`
 
 
 This ensures all palindromes in the new string are of **odd length**, simplifying expansion logic.
