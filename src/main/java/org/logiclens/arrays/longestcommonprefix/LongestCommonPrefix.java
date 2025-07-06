@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.longestcommonprefix;
 
 public class LongestCommonPrefix {
     public String longestCommonPrefix(String[] strings) {

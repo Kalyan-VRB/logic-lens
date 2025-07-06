@@ -1,8 +1,7 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.containerwithmostwater;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 import static org.junit.Assert.*;
 
 public class ContainerWithMostWaterTest {

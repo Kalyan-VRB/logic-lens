@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.twosum;
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class TwoSumTest {

@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.twosum;
 
 import java.util.HashMap;
 import java.util.Map;

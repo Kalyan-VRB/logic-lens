@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.medianoftwosortedarrays;
 
 public class MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

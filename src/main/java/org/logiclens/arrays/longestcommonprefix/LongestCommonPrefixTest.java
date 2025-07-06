@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.longestcommonprefix;
 
 import org.junit.Test;
 

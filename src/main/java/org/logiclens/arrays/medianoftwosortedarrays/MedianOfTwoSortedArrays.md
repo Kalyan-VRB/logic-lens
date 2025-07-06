@@ -50,6 +50,6 @@ Merged array = [1,2,3,4] and the median is (2 + 3) / 2 = 2.5.
 
 - [Solution Explanation](MedianOfTwoSortedArraysSolution.md)
 - [Java Code](MedianOfTwoSortedArrays.java)
-- [Test Cases](TwoSumTest.java)
+- [Test Cases](../twosum/TwoSumTest.java)
 
 ---

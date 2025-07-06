@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.medianoftwosortedarrays;
 
 import org.junit.Test;
 

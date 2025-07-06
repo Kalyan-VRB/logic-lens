@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.containerwithmostwater;
 
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {

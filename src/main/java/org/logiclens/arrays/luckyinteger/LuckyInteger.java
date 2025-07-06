@@ -1,4 +1,4 @@
-package org.logiclens.arrays;
+package org.logiclens.arrays.luckyinteger;
 
 public class LuckyInteger {
     public int findLucky(int[] arr){
