@@ -59,14 +59,14 @@ By doing this iteratively, we explore all possible containers where one of the l
 
 ## Brute Force vs Optimal (Two-Pointer) Comparison
 
-| Aspect                 | Brute Force                              | Two-Pointer (Optimal)               |
-|------------------------|-------------------------------------------|-------------------------------------|
-| **Time Complexity**    | O(n²)                                     | O(n)                                |
-| **Space Complexity**   | O(1)                                      | O(1)                                |
-| **Method**             | Check every pair of lines                 | Start from ends, move inward        |
-| **When to Use**        | Educational or for small input sizes      | Always use for production/interview |
-| **Key Weakness**       | Inefficient for large input sizes         | None (proven optimal)               |
-| **Key Insight Missed** | Doesn't leverage sorted positions         | Greedily skips non-promising pairs  |
+| Aspect                 | Brute Force                          | Two-Pointer (Optimal)               |
+|------------------------|--------------------------------------|-------------------------------------|
+| **Time Complexity**    | O(n²)                                | O(n)                                |
+| **Space Complexity**   | O(1)                                 | O(1)                                |
+| **Method**             | Check every pair of lines            | Start from ends, move inward        |
+| **When to Use**        | Educational or for small input sizes | Always use for production/interview |
+| **Key Weakness**       | Inefficient for large input sizes    | None (proven optimal)               |
+| **Key Insight Missed** | Doesn't leverage sorted positions    | Greedily skips non-promising pairs  |
 
 ---
 

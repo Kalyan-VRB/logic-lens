@@ -60,14 +60,14 @@ More precisely:
 
 ## Brute Force vs Optimal Approach
 
-| Metric               | Brute Force                          | Optimal (Character-by-Character)   |
-|----------------------|--------------------------------------|-------------------------------------|
-| Strategy             | Check all prefixes of the shortest string, see if all strings start with it | Compare characters index by index |
-| Time Complexity      | O(N × minLen²) (in worst-case with prefix building and checking) | O(N × minLen)                      |
-| Space Complexity     | O(minLen) (for temporary prefix building) | O(1)                               |
-| Early Exit?          | Often loops unnecessarily            | Returns as soon as a mismatch is found |
-| Practical Efficiency | Slower, especially with long strings | Fast and scalable                  |
-| Elegance & Clarity   | Slightly verbose                     | Clean and interview-friendly       |
+| Metric               | Brute Force                                                                 | Optimal (Character-by-Character)       |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| Strategy             | Check all prefixes of the shortest string, see if all strings start with it | Compare characters index by index      |
+| Time Complexity      | O(N × minLen²) (in worst-case with prefix building and checking)            | O(N × minLen)                          |
+| Space Complexity     | O(minLen) (for temporary prefix building)                                   | O(1)                                   |
+| Early Exit?          | Often loops unnecessarily                                                   | Returns as soon as a mismatch is found |
+| Practical Efficiency | Slower, especially with long strings                                        | Fast and scalable                      |
+| Elegance & Clarity   | Slightly verbose                                                            | Clean and interview-friendly           |
 
 ---
 
