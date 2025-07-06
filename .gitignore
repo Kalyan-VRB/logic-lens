@@ -39,3 +39,4 @@ build/
 
 ### Problem Creation Script ###
 *.py
+/.idea/vcs.xml
