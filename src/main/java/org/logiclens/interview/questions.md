@@ -138,3 +138,30 @@ These ideas show future scalability and feature planning.
 * Code structured into small, testable components/services.
 
 ---
+# Monorepo Full-Stack Architecture – Interview Notes
+
+## Why use a Monorepo?
+- Better coordination across teams
+- Atomic commits across frontend/backend
+- Shared versioning and CI/CD
+
+## Common Questions
+
+### Q1: Why did you choose a single repo for both frontend and backend?
+**A:** It enables consistent version control and reduces integration issues. Easier for DevOps to maintain CI/CD pipelines.
+
+### Q2: How did you organize the folder structure?
+**A:** Following domain-centric modular design:
+
+        logiclens/
+        ├── backend/ (Spring Boot)
+        ├── frontend/ (Angular)
+        └── problems/ (Algorithm visualizations)
+
+
+### Q3: How do you deploy them separately?
+**A:** Dockerized both frontend and backend with separate Dockerfiles and exposed them via nginx reverse proxy or Spring Boot static hosting.
+
+---
+
+This structure supports fast onboarding, test automation, and future microservices splitting.
