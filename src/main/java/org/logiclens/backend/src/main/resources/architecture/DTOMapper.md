@@ -127,15 +127,18 @@ Create a folder: `mapper`
 Add to `pom.xml`:
 
 ```xml
-<dependency>
-    <groupId>org.mapstruct</groupId>
-    <artifactId>mapstruct</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.mapstruct</groupId>
-    <artifactId>mapstruct-processor</artifactId>
-    <scope>provided</scope>
-</dependency>
+
+<dependencies>
+    <dependency>
+        <groupId>org.mapstruct</groupId>
+        <artifactId>mapstruct</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.mapstruct</groupId>
+        <artifactId>mapstruct-processor</artifactId>
+        <scope>provided</scope>
+    </dependency>
+</dependencies>
 ```
 
 Add compiler plugin:
